@@ -165,22 +165,29 @@ const Body = () => {
 // RestaurantCard
 
 const RestaurantCard = props => {
-    console.log(props);
+    const { restaurant } = props;
+    const { name, cuisines, cloudinaryImageId, deliveryTime, avgRating } =
+        restaurant;
     return (
         <div className="restro-card">
             <img
-                src={props.restaurant.cloudinaryImageId}
+                src={cloudinaryImageId}
                 alt="Restaurant"
                 className="restro-image"
             />
-            <h3>{props.restaurant.name}</h3>
+            <h3>{name}</h3>
             <div className="restro-info">
-                <p className="cuisine">{props.restaurant.cuisines}</p>
-                <div className="rating">⭐ {props.restaurant.avgRating}</div>
-                <p className="delivery-time">{props.restaurant.deliveryTime}</p>
+                <p className="cuisine">{cuisines}</p>
+                <div className="rating">⭐ {avgRating}</div>
+                <p className="delivery-time">{deliveryTime}</p>
             </div>
         </div>
     );
+};
+
+// Footer
+const Footer = () => {
+    return <div className="footer"></div>;
 };
 
 const AppLayout = () => {
