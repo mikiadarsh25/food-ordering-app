@@ -1,0 +1,20 @@
+{
+    "name": "food-ordering-app",
+    "version": "1.0.0",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npx parcel index.html"
+    },
+    "keywords": [],
+    "author": "Adarsh Prakash",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "parcel": "^2.13.3",
+        "react": "^19.0.0",
+        "react-dom": "^19.0.0"
+    },
+    "devDependencies": {
+        "process": "^0.11.10"
+    }
+}
