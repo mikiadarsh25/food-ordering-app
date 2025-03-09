@@ -1,4 +1,5 @@
 import constants from "../utils/constants";
+import { useState, useEffect } from "react";
 // Header
 const Header = () => {
     return (
@@ -13,6 +14,7 @@ const Header = () => {
                     <li>About Us</li>
                     <li>Contact Us</li>
                     <li>Cart</li>
+                    <button className="login-button">Login</button>
                 </ul>
             </div>
         </div>

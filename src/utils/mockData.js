@@ -4,7 +4,7 @@ const restaurantList = [
         name: "Biryani Zest",
         cuisines:
             "Biryani, Andhra, North Indian, Chinese, Kebab, Seafood, Desserts, Beverages",
-        avgRating: "4.1",
+        avgRating: 4.1,
         deliveryTime: "51 min",
         costForTwo: "₹1,000 for two",
         cloudinaryImageId:
@@ -14,7 +14,7 @@ const restaurantList = [
         id: 51639,
         name: "Meghna Foods",
         cuisines: "Biryani, Andhra, North Indian, Seafood",
-        avgRating: "4.4",
+        avgRating: 4.4,
         deliveryTime: "27 min",
         costForTwo: "₹1,000 for two",
         cloudinaryImageId:
@@ -24,7 +24,7 @@ const restaurantList = [
         id: 20408899,
         name: "Blends Of Biryani",
         cuisines: "Biryani, Chinese, Mughlai",
-        avgRating: "4.3",
+        avgRating: 4.3,
         deliveryTime: "57 min",
         costForTwo: "₹300 for two",
         cloudinaryImageId:
@@ -35,7 +35,7 @@ const restaurantList = [
         name: "Ebony",
         cuisines:
             "North Indian, Biryani, South Indian, Thai, Seafood, Desserts, Beverages",
-        avgRating: "4.3",
+        avgRating: 4.3,
         deliveryTime: "40 min",
         costForTwo: "₹1,900 for two",
         cloudinaryImageId:
@@ -45,7 +45,7 @@ const restaurantList = [
         id: 19282473,
         name: "Nandhini Deluxe",
         cuisines: "Andhra, Biryani, North Indian",
-        avgRating: "4.1",
+        avgRating: 4.1,
         deliveryTime: "26 min",
         costForTwo: "₹1,400 for two",
         cloudinaryImageId:
@@ -55,7 +55,7 @@ const restaurantList = [
         id: 21460039,
         name: "Maffei Kitchen",
         cuisines: "Mediterranean, Lebanese, Greek",
-        avgRating: "4.1",
+        avgRating: 4.1,
         deliveryTime: "30 min",
         costForTwo: "₹1,000 for two",
         cloudinaryImageId:
@@ -65,7 +65,7 @@ const restaurantList = [
         id: 50141,
         name: "Bheema's",
         cuisines: "Andhra, Biryani, South Indian",
-        avgRating: "4.0",
+        avgRating: 4.0,
         deliveryTime: "29 min",
         costForTwo: "₹950 for two",
         cloudinaryImageId:
@@ -75,7 +75,7 @@ const restaurantList = [
         id: 18391029,
         name: "Chakum Chukum",
         cuisines: "Rolls, North Indian, Fast Food, Biryani, Kebab, Beverages",
-        avgRating: "3.4",
+        avgRating: 3.4,
         deliveryTime: "48 min",
         costForTwo: "₹400 for two",
         cloudinaryImageId:
@@ -85,7 +85,7 @@ const restaurantList = [
         id: 50046,
         name: "Anupam's Coast II Coast",
         cuisines: "Seafood, South Indian, Chinese, Mangalorean, Oriental",
-        avgRating: "4.4",
+        avgRating: 4.4,
         deliveryTime: "33 min",
         costForTwo: "₹1,700 for two",
         cloudinaryImageId:
